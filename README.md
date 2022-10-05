@@ -6,3 +6,5 @@ with the auth uri and scope</p>
 
 <p>This was primarily created for getting API token from google cloud, haven't <br>
 tried in any other cloud services yet</p>
+
+btw it only does 50% of the job, to actually get the key, use postman
