@@ -1,24 +1,11 @@
 #!/bin/bash
 
-echo enter the client id: 
-
-read clientid
-
+read -p 'enter client id: ' clientid
 echo  client id is $clientid
+read -s 'enter client secret: ' clientsec
 
-echo enter client secret: 
-
-read clientsec
-
-echo client secret is $clientsec
-
-echo enter auth url
-
-read authl
-
-echo enter scope
-
-read scope
+read -p 'enter auth uri: ' authl
+read -p 'enter scope: ' scope
 
 echo $authl?scope\=$scope\&response_type\=code\&access_type\=offline\&redirect_uri\=https\://localhost\&client_id\=$clientid
 
