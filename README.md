@@ -8,3 +8,11 @@ with the auth uri and scope</p>
 tried in any other cloud services yet</p>
 
 btw it only does 50% of the job, to actually get the key, use postman
+<br>
+<br>
+_Update v1.1_:It now does 80% of job, doesnt require Postman to grab the auth code for now...
+
+
+
+
+**PS:** Have tried with google's API only 
